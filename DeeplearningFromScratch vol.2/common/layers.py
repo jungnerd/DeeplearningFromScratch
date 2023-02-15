@@ -1,5 +1,5 @@
 import numpy as np
-# import common.functions import *
+from common.functions import softmax, cross_entropy_error
 from common.util import im2col, col2im
 
 
@@ -67,3 +67,7 @@ class Affine: # TODO : MatMul class를 이용해서 구현하기
         
         return dx
     
+
+class SoftmaxWithLoss:
+    def __init__(self):
+        
