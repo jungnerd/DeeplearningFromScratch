@@ -1,7 +1,5 @@
 import numpy as np
 from common.functions import softmax, cross_entropy_error
-from common.util import im2col, col2im
-
 
 """
 계층의 '구현 규칙'
